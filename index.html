@@ -1,21 +1,50 @@
-<html>
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <h1> Szeressük az infót </h1>
+    <meta charset="utf-8" />
+    <title> FOR INFO ÓRA</title>
+    <style>
+        h1 {color: red;
+        font-family: courier;}
+        #intro {color: tomato;
+        font-family: verdana}
+        #nemszerlog {color: green
+        font-family: Comic Sans}
+        #italic {color: DodgerBlue
+        font-family: Georgia}
+        #demo {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+        img {border-radius: 50%
+            }
+        #kettes {font-family:"Brush Script Std";
+                     color: "pink";
+                     text-decoration: underline;
+
+        }
+        
+    </style>
+</head>
 <body>
-
-<h1>Bazd meg anyád</h1>
-
-<p>By: Andri$$</p>
-
-<p>Kattincs ráfele</p>
-
-<button onclick="myFunction()">Ide ujazz gecó</button>
-
-<p id="demo"></p>
-
-<script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "A rózsa vörös a soros terv veszélyes";
-}
+    <p id="intro"> Andri$$ </p>
+    <b id="nemszerlog"> A logo nem jó de ez van</b>
+    <i id="italic1"> Ez olasz mint a pizza </i>
+    <p id="demo" onclick="myFunction()">Nyomj meg.</p>
+    <img src="https://media1.tenor.com/images/52d13e6274e30ee0fe98d1c20d39a341/tenor.gif?itemid=5586037" alt="doggo"
+         <i id="kettes"> Kettest megkapom?</i>
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Megnyomtál";
+        }
 </script>
-
 </body>
 </html>
