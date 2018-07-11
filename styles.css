@@ -8,3 +8,9 @@
     display: inline-block;
     font-size: 16px;
 }
+#dwnld {
+  color: tomato;
+}
+#dwnld:hover {
+  color: red;
+}
