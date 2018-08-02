@@ -14,3 +14,11 @@
 #dwnld:hover {
   color: red;
 }
+#dwnld2 {
+  color: Green
+  font-family: courier;
+}
+>dwnld2:hover {
+  color: tomato
+  font-family: courier;
+}
